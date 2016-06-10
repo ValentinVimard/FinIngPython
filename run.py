@@ -15,3 +15,5 @@ pf.print()
 
 d = dates()
 r = rates()
+
+d.print()

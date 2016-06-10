@@ -19,6 +19,11 @@ def year_to_date(settlement,year):
 def year_frac (settlement, t):
       return ((datetime.toordinal(t) - datetime.toordinal(settlement))/365)
 
+def print_aux(T) :
+    print(" ",end = "  | ")
+    for i in range(0,len(T)):
+        print(T[i] , end = ' | ')
+    print (" ")
 #___________________________________________________________________________#
 class derivative :
 
